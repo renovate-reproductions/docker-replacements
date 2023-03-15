@@ -1,6 +1,6 @@
 # migrate to containerbase/base
 
-FROM containerbase/buildpack:6.4.1
+FROM ghcr.io/containerbase/base:6.4.1
 
 FROM ghcr.io/containerbase/buildpack:6.4.1
 
