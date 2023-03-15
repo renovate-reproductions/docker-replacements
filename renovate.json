@@ -12,10 +12,21 @@
       "matchPackageNames": [
         "containerbase/base",
         "containerbase/buildpack",
+        "docker.io/containerbase/base",
+        "docker.io/containerbase/buildpack",
         "ghcr.io/containerbase/buildpack"
       ],
       "matchDatasources": ["docker"],
       "replacementName": "ghcr.io/containerbase/base"
+    },
+    {
+      "description": "replace all containerbase/sidecar",
+      "matchPackageNames": [
+        "docker.io/containerbase/sidecar",
+        "ghcr.io/containerbase/sidecar"
+      ],
+      "matchDatasources": ["docker"],
+      "replacementName": "containerbase/sidecar"
     },
     {
       "description": "replace all renovate/renovate",
