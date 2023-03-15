@@ -6,7 +6,7 @@ FROM ghcr.io/containerbase/buildpack:6.4.1
 
 # =========================================================
 # migrate to containerbase/sidecar
-FROM ghcr.io/containerbase/sidecar:6.4.1
+FROM containerbase/sidecar:6.4.1
 FROM docker.io/containerbase/sidecar:6.4.1
 
 # =========================================================
