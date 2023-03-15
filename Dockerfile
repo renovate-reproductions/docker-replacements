@@ -9,4 +9,4 @@ FROM ghcr.io/containerbase/buildpack:6.4.1
 
 FROM renovate/renovate
 
-FROM docker.io/renovate/renovate:35.6.0
+FROM ghcr.io/visualon/renovate:35.6.0
